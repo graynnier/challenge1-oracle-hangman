@@ -1,0 +1,99 @@
+
+*{
+    border:0;
+    margin:0;
+    padding:0;
+}
+body {
+    background-color: yellowgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+.titulo {
+    padding: 15px;
+    width: 60vw;
+    margin: auto;
+  
+  }
+  .text-input {
+    border-radius: 0.5em;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    display: block;
+    padding: 0.5em;
+    width: 3%;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .btn {
+    border: 0;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 0.5em;
+  }
+  /*
+  
+section{
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 1rem;
+    vertical-align: center;
+    width: 40%;
+}
+*/
+#lienzo{
+    border-radius: 0.5em;
+    border: 3px solid black;
+    background-color: yellow;
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    position: relative;
+    margin: auto;
+    
+}
+/*
+input[type = "text"]{
+    background-color: #eee;
+    border:1px solid gray;
+    font-size: 1.7rem;
+}
+
+input[type = "button"]{
+    background-color: steelblue;
+    color: white;
+    font-size: 1.7rem;
+    padding: 0.3rem;
+}
+*/
+div{
+    font-size: 1.5rem;
+    padding: 0.3rem;
+    margin: 0.5rem;
+}
+
+div#frase{
+    border: 2px solid slategrey;
+    padding: 0.4rem;
+    width: 25%;
+    height: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.footerBase{ 
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: rgb(247, 245, 239);
+  }
+.footer{
+    height: 20px;
+    width: 100%;
+    background-color: #0b1721;
+  }
